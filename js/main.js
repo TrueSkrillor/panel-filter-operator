@@ -22,9 +22,17 @@
 
     MashupPlatform.wiring.registerCallback("entityInput", function (entityString) {
         var initial_data = JSON.parse(entityString);
+        var value = initial_data[MashupPlatform.prefs.get('attr')];
+        if (typeof value === "string") {
+            var parsed_value = Number(value);
+            if (!isNaN(parsed_value)) {
+                value = parsed_value;
+            }
+        }
+
         var new_data = {
-            value: initial_data[MashupPlatform.prefs.get('attr')],
-            units: MashupPlatform.prefs.get('units')
+            value: value,
+            unit: MashupPlatform.prefs.get('units')
         };
         MashupPlatform.wiring.pushEvent("entityOutput", JSON.stringify(new_data));
     });
