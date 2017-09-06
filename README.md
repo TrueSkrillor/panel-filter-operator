@@ -1,9 +1,7 @@
 Panel Filter Operator
 ======================
 
-The BAE Browser Widget is a WireCloud widget that provides the ability to browse, filter and install the Wirecloud offerings available at a Bussiness API Ecosystem instance in a simple widget, easily configured by just providing the BAE instance's URL.
-
-This widget requires the [bae-details-widget](https://github.com/Wirecloud/bae-details-widget) and the [bae-search-filters-widget](https://github.com/Wirecloud/bae-search-filters-widget) to be added to the Wirecloud instance resources in order to work.
+Filter attributes to use it in the panel widget
 
 Build
 -----
