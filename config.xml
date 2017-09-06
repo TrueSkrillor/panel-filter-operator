@@ -2,7 +2,7 @@
 <operator xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="CoNWeT" name="panel-filter" version="1.0.0">
   <details>
     <title>Panel filter</title>
-    <homepage>https://github.com/wirecloud-fiware/ngsientity2poi</homepage>
+    <homepage>https://github.com/Wirecloud/panel-filter-operator</homepage>
     <authors>aarranz</authors>
     <email>aarranz@conwet.com</email>
     <image>images/catalogue.png</image>
