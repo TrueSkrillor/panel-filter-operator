@@ -1,1 +1,1 @@
-Filter attributes to use it in the panel widget
+Filter attributes to use it in the [Panel Widget](https://github.com/Wirecloud/panel-widget)
